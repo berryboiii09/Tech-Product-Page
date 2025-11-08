@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulse – Social Media Monitoring</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav>
+            <img src="img/Logo.png" width=125px>
+            <ul>
+                <li><a class="desktopOnly" href="#features">Features</a></li>
+                <li><a class="desktopOnly" href="#testimonials">Testimonials</a></li>
+                <li><a class="desktopOnly" href="#pricing">Pricing</a></li>
+                <li><a class="desktopOnly" href="#cta" id="startBtn">Get Started</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <svg id="sunIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg id="moonIcon" style="display: none;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </li>
+                <li><button id="sidebarBtn">&#9776;</button></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Mobile Sidebar-->
+    <div id="mobileSidebar">
+        <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#cta" id="startBtn">Get Started</a></li>
+        </ul>
+    </div>
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Stay Ahead of Every Trend with <span>Pulse</span></h1>
+            <p>Monitor your brand’s mentions, track engagement, and discover insights across every major social platform — all in one clean, powerful dashboard.</p>
+            <div class="hero-buttons">
+                <a href="#pricing" class="buttonOne">Start Free Trial</a>
+                <a href="#features" class="buttonTwo">Watch Demo</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img id="heroImage" src="img/Screen1.png" alt="Pulse Dashboard Preview">
+        </div>
+    </section>
+    <!--Features-->
+    <section class="features" id="features">
+        <h2>Everything You Need to Keep Your Brand in the Spotlight</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <h3>🔍 Real-Time Monitoring</h3>
+                <p>Track brand mentions and keywords instantly across Twitter, Instagram, TikTok, and more. Never miss an important trend or customer shoutout.</p>
+            </div>
+            <div class="feature-item">
+                <h3>📊 Powerful Analytics</h3>
+                <p>View engagement, sentiment, and growth metrics in one easy dashboard. Identify what’s working and where to improve.</p>
+            </div>
+            <div class="feature-item">
+                <h3>🔔 Smart Alerts</h3>
+                <p>Get notified the moment your brand is mentioned by influencers or experiences sudden spikes in activity.</p>
+            </div>
+            <div class="feature-item">
+                <h3>🤝 Team Collaboration</h3>
+                <p>Share reports, assign responses, and collaborate with your team directly within Pulse.</p>
+            </div>
+        </div>
+    </section>
+    <!--Testimonials-->
+    <section class="testimonials" id="testimonials">
+        <h2>Loved by Marketers, Trusted by Brands</h2>
+        <div class="testimonial-list">
+            <div class="testimonial-item">
+                <p class="quote">
+                “Pulse has become our daily go-to. We’ve grown engagement by 40% since using their trend alerts.”
+                </p>
+                <img src="img/woman.png" class="userIcon" alt="User Icon">
+                <p class="author">— Sarah Kim, Social Lead @ BrightCo</p>
+            </div>
+            <div class="testimonial-item">
+                <p class="quote">
+                “Finally, a dashboard that actually makes sense. The analytics are clean, simple, and incredibly useful.”
+                </p>
+                <img src="img/man.png" class="userIcon" alt="User Icon">
+                <p class="author">— Liam Patel, Marketing Director @ Nova Studio</p>
+            </div>
+            <div class="testimonial-item">
+                <p class="quote">
+                “We use Pulse for every campaign launch — it’s like having an extra team member tracking everything for us.”
+                </p>
+                <img src="img/woman.png" class="userIcon" alt="User Icon">
+                <p class="author">— Jenna Torres, CEO @ Trendlytics</p>
+            </div>
+        </div>
+    </section>
+    <!--Pricing-->
+    <section class="pricing" id="pricing">
+        <h2>Simple Plans for Every Team</h2>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Starter</h3>
+                <p class="price">Free</p>
+                <p class="desc">Track up to 2 platforms, basic analytics</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+            <div class="pricing-card popular">
+                <h3>Pro <span class="badge">Most Popular</span></h3>
+                <p class="price">$19<span>/mo</span></p>
+                <p class="desc">Unlimited tracking, smart alerts, weekly reports</p>
+                <a href="#" class="btn primary">Start Free Trial</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Business</h3>
+                <p class="price">$49<span>/mo</span></p>
+                <p class="desc">Team collaboration, API access, advanced sentiment analysis</p>
+                <a href="#" class="btn">Contact Sales</a>
+            </div>
+        </div>
+    </section>
+    <!--Call to Action-->
+    <section class="cta" id="cta">
+        <div class="cta-content">
+            <h2>Your Audience Is Talking — Don’t Miss the Conversation</h2>
+            <p>Start tracking your brand’s online presence today and uncover insights that drive growth.</p>
+            <a href="#pricing" class="btn primary">Start Free Trial</a>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <p>© 2025 Pulse. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
